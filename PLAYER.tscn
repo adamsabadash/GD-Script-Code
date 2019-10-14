@@ -1,0 +1,182 @@
+[gd_scene load_steps=62 format=2]
+
+[ext_resource path="res://PLAYER.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Backward Sprites/Walk Backward 0.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Backward Sprites/Walk Backward 1.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Backward Sprites/Walk Backward 2.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Backward Sprites/Walk Backward 3.png" type="Texture" id=5]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Backward Sprites/Walk Backward 4.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Backward Sprites/Walk Backward 5.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Backward Sprites/Walk Backward 6.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Backward Sprites/Walk Backward 7.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Backward Sprites/Thrust Backward 0.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Backward Sprites/Thrust Backward 1.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Backward Sprites/Thrust Backward 2.png" type="Texture" id=12]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Backward Sprites/Thrust Backward 3.png" type="Texture" id=13]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Backward Sprites/Thrust Backward 4.png" type="Texture" id=14]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Left Sprites/Walk Left 0.png" type="Texture" id=15]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Left Sprites/Walk Left 1.png" type="Texture" id=16]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Left Sprites/Walk Left 2.png" type="Texture" id=17]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Left Sprites/Walk Left 3.png" type="Texture" id=18]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Left Sprites/Walk Left 4.png" type="Texture" id=19]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Left Sprites/Walk Left 5.png" type="Texture" id=20]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Left Sprites/Walk Left 6.png" type="Texture" id=21]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Left Sprites/Walk Left 7.png" type="Texture" id=22]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Left Sprites/Walk Left 8.png" type="Texture" id=23]
+[ext_resource path="res://Sprites/Block Sprites/Block Left.png" type="Texture" id=24]
+[ext_resource path="res://Sprites/Block Sprites/Block Backward.png" type="Texture" id=25]
+[ext_resource path="res://Sprites/Block Sprites/Block Forward.png" type="Texture" id=26]
+[ext_resource path="res://Sprites/Block Sprites/Block Right.png" type="Texture" id=27]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Forward Sprites/Thrust Forward 0.png" type="Texture" id=28]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Forward Sprites/Thrust Forward 1.png" type="Texture" id=29]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Forward Sprites/Thrust Forward 2.png" type="Texture" id=30]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Forward Sprites/Thrust Forward 3.png" type="Texture" id=31]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Forward Sprites/Thrust Forward 4.png" type="Texture" id=32]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Forward Sprites/Walk Forward 3.png" type="Texture" id=33]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Right Sprites/Walk Right 3.png" type="Texture" id=34]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Forward Sprites/Walk Forward 0.png" type="Texture" id=35]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Forward Sprites/Walk Forward 1.png" type="Texture" id=36]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Forward Sprites/Walk Forward 2.png" type="Texture" id=37]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Forward Sprites/Walk Forward 4.png" type="Texture" id=38]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Forward Sprites/Walk Forward 5.png" type="Texture" id=39]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Forward Sprites/Walk Forward 6.png" type="Texture" id=40]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Forward Sprites/Walk Forward 7.png" type="Texture" id=41]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Right Sprites/Walk Right 0.png" type="Texture" id=42]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Right Sprites/Walk Right 1.png" type="Texture" id=43]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Right Sprites/Walk Right 2.png" type="Texture" id=44]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Right Sprites/Walk Right 4.png" type="Texture" id=45]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Right Sprites/Walk Right 5.png" type="Texture" id=46]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Right Sprites/Walk Right 6.png" type="Texture" id=47]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Right Sprites/Walk Right 7.png" type="Texture" id=48]
+[ext_resource path="res://Sprites/Walk Sprites/Walk Right Sprites/Walk Right 8.png" type="Texture" id=49]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Left Sprites/Thrust Left 0.png" type="Texture" id=50]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Left Sprites/Thrust Left 1.png" type="Texture" id=51]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Left Sprites/Thrust Left 2.png" type="Texture" id=52]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Left Sprites/Thrust Left 3.png" type="Texture" id=53]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Left Sprites/Thrust Left 4.png" type="Texture" id=54]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Right Sprites/Thrust Right 0.png" type="Texture" id=55]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Right Sprites/Thrust Right 1.png" type="Texture" id=56]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Right Sprites/Thrust Right 2.png" type="Texture" id=57]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Right Sprites/Thrust Right 3.png" type="Texture" id=58]
+[ext_resource path="res://Sprites/Thrust Sprites/Thrust Right Sprites/Thrust Right 4.png" type="Texture" id=59]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "Run Backward",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "Walk Backward",
+"speed": 6.0
+}, {
+"frames": [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "Thrust Backward",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ) ],
+"loop": true,
+"name": "Walk Left",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 24 ) ],
+"loop": true,
+"name": "Block Left",
+"speed": 1.0
+}, {
+"frames": [ ExtResource( 25 ) ],
+"loop": true,
+"name": "Block Backward",
+"speed": 1.0
+}, {
+"frames": [ ExtResource( 26 ) ],
+"loop": true,
+"name": "Block Forward",
+"speed": 1.0
+}, {
+"frames": [ ExtResource( 27 ) ],
+"loop": true,
+"name": "Block Right",
+"speed": 1.0
+}, {
+"frames": [ ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ) ],
+"loop": true,
+"name": "Thrust Forward",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 33 ) ],
+"loop": true,
+"name": "Idle Forward",
+"speed": 1.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 1.0
+}, {
+"frames": [ ExtResource( 34 ) ],
+"loop": true,
+"name": "Idle Right",
+"speed": 1.0
+}, {
+"frames": [ ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 33 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ) ],
+"loop": true,
+"name": "Walk Forward",
+"speed": 6.0
+}, {
+"frames": [ ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 34 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ) ],
+"loop": true,
+"name": "Walk Right",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ) ],
+"loop": true,
+"name": "Thrust Left",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 55 ), ExtResource( 56 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ) ],
+"loop": true,
+"name": "Thrust Right",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 18 ) ],
+"loop": true,
+"name": "Idle Left",
+"speed": 1.0
+}, {
+"frames": [ ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 33 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ), ExtResource( 41 ) ],
+"loop": true,
+"name": "Run Forward",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ) ],
+"loop": true,
+"name": "Run Left",
+"speed": 16.0
+}, {
+"frames": [ ExtResource( 42 ), ExtResource( 43 ), ExtResource( 44 ), ExtResource( 34 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 48 ), ExtResource( 49 ) ],
+"loop": true,
+"name": "Run Right",
+"speed": 16.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 15.2797, 25.4564 )
+
+[node name="Player" type="KinematicBody2D"]
+position = Vector2( 627.528, 386.958 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "Run Right"
+
+[node name="CollisionPolygon2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.530386, 6.85292 )
+shape = SubResource( 2 )
